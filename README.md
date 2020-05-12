@@ -11,3 +11,10 @@ The most important feature to my preferred model, the Ridge regression model, wa
 ![feature importance from eli5 output for the ridge regression model](feature-importance-ridge.png)
 
 In the future I would like to first use more of the categorical features, and perhaps encode some of the discrete features I used in my final model. I would also like to then only use the most important features, perhaps by regularizing using both LASSO and Ridge through an ElasticNet model. I could alos onlyuse the top 5-10 features based on Permutation Importance.
+
+
+
+Sources:
+
+- [Data Source: Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+- [README Header Image Source: Lending Tree](https://www.lendingtree.com/home/mortgage/how-to-buy-a-house-when-your-current-home-hasnt-sold/)
