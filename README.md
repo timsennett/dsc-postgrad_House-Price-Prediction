@@ -4,11 +4,7 @@ Housing Price Prediction Project
 
 My project aims to predict the sale price of houses. This data comes from this Kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
-I used 33 columns for my analysis, which included variables about the age and quality of the house, the total size of both the lot and the house itself, the number of bedrooms and bathrooms, and additional features like any porch, garage, basement, etc.
-
-The most correlated feature to the target, which was also the most informative feature in my preferred model, is OverallQual.
-
---- 
+I used 33 columns for my analysis, which included variables about the age and quality of the house, the total size of both the lot and the house itself, the number of bedrooms and bathrooms, and additional features like any porch, garage, basement, etc. The most correlated feature to the target, which was also the most informative feature in my preferred model, is OverallQual.
 
 I began with a baseline that predicts only the mean house price from the training data for each house, but this model does very poorly (of course). A linear regression model on the numeric columns has an R-Squared Score of 0.78. I tried a Ridge regression model to try to manage the multicollinearity between my features but it did not perform any better. 
 
